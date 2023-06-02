@@ -6,7 +6,7 @@ const date = document.getElementById('deadline2');
 
 function getNote() {
   return notes = JSON.parse(localStorage.getItem("notes")) || [];
-};
+} ;
 
 
 const addNote = (id, task, time, date) => {
