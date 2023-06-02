@@ -15,7 +15,9 @@ input {
 
 }
 
-button {
+
+.mybtns{
+    border: 2px solid black;
     width: 20%;
     height: 50px;
     border-radius: 5px;
@@ -29,6 +31,11 @@ button {
     transition: width 2s, height 2s;
 }
 
+.note:hover {
+    width: 250px;
+    height: 300px;
+}
+
 .fadeIn{
     animation: fadein 3s;
 }
@@ -40,12 +47,6 @@ button {
     to{
         opacity: 1;
     }
-}
-
-
-.note:hover {
-    width: 250px;
-    height: 300px;
 }
 
 
